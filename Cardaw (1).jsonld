@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Cardaw",
+    "motivations": "I am driven by the belief that decentralization is the key to creating a fairer and more resilient future. My professional background in technology and governance has given me the tools to help shape meaningful change. As a DRep, I want to represent the voices of the community, ensuring their concerns are heard and addressed. Personally, I value integrity and transparency, and I believe Cardano's model is the perfect platform for enacting these principles.",
+    "objectives": "As a DRep, I aim to actively contribute to the decentralized governance of Cardano, ensuring that decisions reflect the community's interests. My goal is to support transparency, fair decision-making, and long-term growth. I will use my position to advocate for innovative, sustainable proposals that align with Cardano’s core values. By fostering an open dialogue, I hope to strengthen the connection between stakeholders and the ecosystem.",
+    "paymentAddress": "addr1q8ajvz9vezpdureuegtsw0qkxs37nym2ts2cksvrga6sgck0aqlvxkg0jahe78mlzz9ya35l48wx68v697zn86vun9xquwhr3l",
+    "qualifications": "I bring a strong technical background in blockchain technology, along with experience in decentralized governance. As a Stake Pool Operator (SPO), I’ve developed a deep understanding of the Cardano ecosystem and the importance of community-driven decisions. I am also skilled in communication and project management, which will help me effectively engage with stakeholders, analyze proposals, and represent the broader interests of the Cardano network.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Cardaw　HP",
+        "uri": "https://expo-dow.com/"
+      },
+      {
+        "@type": "Link",
+        "label": "Dow　X",
+        "uri": "https://x.com/Dow_shi1"
+      },
+      {
+        "@type": "Identity",
+        "label": "Cardaw　HP",
+        "uri": "https://expo-dow.com/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Dow　X",
+        "uri": "https://x.com/Dow_shi1"
+      }
+    ]
+  }
+}
